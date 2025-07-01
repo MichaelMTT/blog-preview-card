@@ -27,6 +27,9 @@ main{
     min-height: 100vh;
     max-width: 120rem;
     padding: 1rem;
+    box-shadow: 0 0 1rem rgba(0 0 0.1);
+    border-radius: 1rem;
+    border: 0.1rem solid rgba(0 0 0.1);
 }
 
 .wrapper2{
@@ -37,42 +40,50 @@ main{
 
 .box2{
     background-color: var(--clr-yellow);
+    border-radius: 1rem;
+    height:auto;
 }
 
 .header-img{
-
+    border-radius: 1rem;
 }
 
 h1{
     font-weight: 800;
     color: var(--clr-grey-950);
+    font-size: clamp(1rem, 1.5vw, 2rem);
 }
 
 h2{
     font-weight: 500;
-    font-size: 1rem;
     color: var(--clr-gray-500);
+    font-size: clamp(1rem, 1vw, 2rem);
 }
 
 h3{
     font-weight: 800;
     color: var(--clr-grey-950);
+    font-size: clamp(1rem, 0.8vw, 2rem);
 }
 
 h4{
     font-weight: 800;
     color: var(--clr-grey-950);
+    font-size: clamp(1rem, 0.8vw, 2rem);
 }
 
 h5{
     font-weight: 500;
     color: var(--clr-grey-950);
+    font-size: clamp(1rem, 0.5vw, 2rem);
 }
 
 .creator{
-
+    font-weight: 800;
+    color: var(--clr-grey-950);
+    font-size: clamp(1rem, 1vw, 2rem);
 }
 
 .avatar-img{
-
+    
 }
